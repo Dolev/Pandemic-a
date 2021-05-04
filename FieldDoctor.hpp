@@ -1,6 +1,7 @@
+#pragma once
 #include "Player.hpp"
 namespace pandemic{
-    class Virologist : public Player{
+    class FieldDoctor : public Player{
     public:
         
     };

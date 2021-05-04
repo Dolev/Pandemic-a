@@ -1,4 +1,4 @@
-#include "Virologist.hpp"
+#include "Medic.hpp"
 
 namespace pandemic{
     

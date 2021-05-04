@@ -1,6 +1,7 @@
 #include "Player.hpp"
+
 namespace pandemic{
-    class Virologist : public Player{
+    class Medic : public Player{
     public:
         
     };
