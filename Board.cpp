@@ -5,7 +5,6 @@ using namespace std;
 using namespace pandemic;
 
 namespace pandemic{
-
     Board::Board(){
         City_Cubes[City::Kinshasa]=0;
         City_Cubes[City::MexicoCity]=0;
@@ -29,8 +28,8 @@ namespace pandemic{
         return Output;
     }
 
-    bool Board::is_clean(){
-        return true;
+    bool Board::is_clean() const {
+       return City_Cubes.empty();
     }
 
     void Board::remove_cures(){}
